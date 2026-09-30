@@ -1,0 +1,10 @@
+{
+  "name": "murza-skills",
+  "version": "0.1.0",
+  "description": "Robertas Murza's agent skills: grill-rca.",
+  "author": {
+    "name": "Robertas Murza",
+    "url": "https://github.com/RobertasMurza"
+  },
+  "repository": "https://github.com/RobertasMurza/murza-skills"
+}

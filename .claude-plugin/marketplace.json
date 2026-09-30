@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "murza-skills",
+  "description": "Robertas Murza's agent skills.",
+  "owner": {
+    "name": "Robertas Murza",
+    "url": "https://github.com/RobertasMurza"
+  },
+  "plugins": [
+    {
+      "name": "murza-skills",
+      "description": "Robertas Murza's agent skills: grill-rca.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
