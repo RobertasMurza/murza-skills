@@ -16,8 +16,6 @@ Agent skills for Claude Code, packaged as a plugin marketplace.
 /plugin install murza-skills@murza-skills
 ```
 
-The repo is private, so `git` on that machine needs access to it (for example, `gh auth login`).
-
 ## Why grill-rca exists
 
 It came out of a root cause analysis of a project where the plan was grilled from a spreadsheet. The reviews before implementation raised 87 questions, and the few that mattered traced back to the grilling:
