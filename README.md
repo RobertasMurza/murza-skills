@@ -18,10 +18,10 @@ Agent skills for Claude Code, packaged as a plugin marketplace.
 
 ## Why grill-rca exists
 
-It came out of a root cause analysis of a project where the plan was grilled from a spreadsheet. The reviews before implementation raised 87 questions, and the few that mattered traced back to the grilling:
+It came out of a root cause analysis of a project whose plan was grilled from the user's own spreadsheet. The questions that mattered surfaced only during implementation, and they traced back to five gaps in the grilling:
 
-- The spreadsheet's layout was read as the domain. A fee sat in one column only because it fitted there.
-- An unexplained column header went into the model undefined.
-- A proposed mechanism (a separate "Landlord share" line) was accepted without asking what it was for. The real goal was simply "let me lower what the Tenant pays".
-- "Anything goes" about the stack hid firm preferences: a shared PostgreSQL server and particular libraries.
-- The rules were never checked against the spreadsheet's history, so contradictions surfaced only during implementation.
+- The spreadsheet's layout was read as the domain, although it only reflected what fitted on screen.
+- An unexplained label went into the model undefined.
+- A proposed mechanism was accepted without asking what it was for, and a simpler one met the real goal.
+- "Anything goes" about the stack hid firm preferences.
+- The agreed rules were never checked against the spreadsheet's history, so contradictions surfaced late.
